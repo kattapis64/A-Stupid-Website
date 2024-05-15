@@ -17,68 +17,10 @@
     background-color: #2b0d41;
     cursor: pointer;
 }
-.drop a{
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-.drop .content{
-    font-size: 50px;
-    padding: 10px;
-    display: none;
-    position: absolute;
-    background-color: #2b3369;
-    min-width: 200px;
 
+.text{
+    margin-left:2%;
 }
-.drop:hover .content{
-    display: block;
-
-}
-.drop:hover .button{
-    background-color: #1c2144;
-
-}
-.drop a:hover{
-    background-color: #1c2144;
-}
-
-.maincontent button{
-    
-    font-size: 40px;
-    width :90%;
-    text-align: center;
-    color :bisque;
-    background-color: #2b0d41;
-    cursor: pointer;
-}
-.maincontent a{
-    display: block;
-    color: white;
-    text-decoration: none;
-}
-.maincontent .subcontent{
-    font-size: 50px;
-    padding: 10px;
-    
-    position: absolute;
-    background-color: #2b3369;
-    min-width: 200px;
-    display: none;
-
-}
-.maincontent:hover .subcontent{
-    display: block;
-
-}
-.maincontent:hover .button{
-    background-color: #1c2144;
-
-}
-.maincontent a:hover{
-    background-color: #1c2144;
-}
-
 
 
 
@@ -97,7 +39,7 @@
 
 .button{
     font-size: 30px;
-    background-color: #430d4b;
+    background-color: #2b3369;
 }
 .mainbody{
     margin-left: 0px;
