@@ -148,6 +148,9 @@ header{
     font-size: 30px;
 
 }
+#first{
+    margin-left: 3%;
+}
 .pic{
     background-color: rgba(255, 255, 255, 0.89);
     width: 97%;
@@ -180,7 +183,7 @@ header{
     
     
     .con{
-        margin-left: 8px;
+
     
         float :left;
         padding-left: 4px;
@@ -195,6 +198,9 @@ header{
         width: 30%;
         height: 30%;
     
+    }
+    #first{
+        margin-left: 2%;
     }
     .pic{
         background-color: rgba(255, 255, 255, 0.89);
@@ -235,7 +241,7 @@ header{
         background-color: rgba(233, 238, 255,0.5);
     
         font-family: DaFont;
-        font-size: 20px;
+        font-size: 18px;
         width: 30%;
         height: 30%;
     
@@ -284,7 +290,7 @@ header{
         background-color: rgba(233, 238, 255,0.5);
     
         font-family: DaFont;
-        font-size: 18px;
+        font-size: 15px;
         width: 30%;
         height: 30%;
     
@@ -340,7 +346,7 @@ header{
     
     }
     #first{
-        margin-left: 10px;
+        margin-left: 3%;
     }
     .pic{
         background-color: rgba(255, 255, 255, 0.89);
@@ -364,13 +370,13 @@ header{
     font-size: 20px;
    }
     .drop button{
-        font-size:20px;
+        font-size:15px;
 
         color : azure;
     
     }
     .drop .content{
-        font-size: 30px;
+        font-size: 25px;
     }
     
     .con{
@@ -385,7 +391,7 @@ header{
         background-color: rgba(233, 238, 255,0.5);
     
         font-family: DaFont;
-        font-size: 25px;
+        font-size: 15px;
         width: 90%;
         height: 70%;
     
