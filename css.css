@@ -1,0 +1,229 @@
+@font-face {
+    font-family:DaFont ;
+    src: url(SFUIDisplay-Regular.otf);
+}
+.bgmain{
+    float:left;
+}
+.drop{
+    text-align: center;
+}
+.drop button{
+    
+    font-size: 40px;
+    width :90%;
+    text-align: center;
+    color :bisque;
+    background-color: #2b0d41;
+    cursor: pointer;
+}
+.drop a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.drop .content{
+    font-size: 50px;
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: #2b3369;
+    min-width: 200px;
+
+}
+.drop:hover .content{
+    display: block;
+
+}
+.drop:hover .button{
+    background-color: #1c2144;
+
+}
+.drop a:hover{
+    background-color: #1c2144;
+}
+
+.maincontent button{
+    
+    font-size: 40px;
+    width :90%;
+    text-align: center;
+    color :bisque;
+    background-color: #2b0d41;
+    cursor: pointer;
+}
+.maincontent a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.maincontent .subcontent{
+    font-size: 50px;
+    padding: 10px;
+    
+    position: absolute;
+    background-color: #2b3369;
+    min-width: 200px;
+    display: none;
+
+}
+.maincontent:hover .subcontent{
+    display: block;
+
+}
+.maincontent:hover .button{
+    background-color: #1c2144;
+
+}
+.maincontent a:hover{
+    background-color: #1c2144;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+    font-size: 30px;
+    background-color: #430d4b;
+}
+.mainbody{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body{
+
+    background-color: #2b3369;
+    background-image:  url(img/background/s5dfda1uwcb91.webp);
+}
+header{
+    
+    width: 100%;
+    text-align: center;
+    
+
+
+
+
+    
+    font-family: DaFont;
+    background-color: #210535;
+    color: azure;
+    border : 5px solid #210535;
+    
+}
+
+.button{
+    clear : both;
+    font-size : 30px;
+    color : azure;
+
+}
+
+
+.con{
+    margin-left: 8px;
+
+    float :left;
+    padding-left: 4px;
+
+
+    border : 5px solid;
+    border-radius: 11px ;
+    background-color: rgba(233, 238, 255,0.5);
+
+    font-family: DaFont;
+    font-size: 30px;
+
+}
+.pic{
+    background-color: rgba(255, 255, 255, 0.89);
+    width: 97%;
+    height: 97%;
+}
+
+@media only screen and (max-width:430px){
+    header{
+
+    }
+    header .drop{
+
+    }
+    
+    .drop .button{
+
+        font-size:x-large;
+    }
+    .con{
+        
+        clear : both;
+        border : 5px solid;
+        border-radius: 50px;
+
+        float : auto;
+        margin-left: 50px;
+        font-size: 70px;
+
+        width: 300px;
+        margin-top: 15px;
+        
+
+        
+        
+    }
+    img{
+        
+        width: 102%;
+        height: 102%;
+
+    }
+}
+
+@media only screen and (max-width:768px) {
+    header{
+        float: none;
+
+        font-size: 10px;
+        top :0px;
+
+    }
+    .con{
+        
+        
+
+        
+        padding-left: 10px;
+        border : 5px solid;
+        border-radius: 20px;
+        margin-right: 10px;
+
+        font-size: 20px;
+        
+        width: 29%;
+        height :29%;
+        
+    
+        
+        
+    }
+    img{
+        
+        width: 102%;
+        height: 102%;
+
+
+    }
+
+
+}
