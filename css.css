@@ -105,6 +105,10 @@ header{
     font-size: 30px;
 
 }
+.con p u{
+    font-size: 23px;
+    font-weight: bold;
+}
 #first{
     margin-left: 4.5%;
 }
@@ -128,6 +132,8 @@ header{
         background-color: #210535;
         color: azure;
         border : 5px solid #210535;
+        position:sticky;
+        top:0;
         
     }
     
