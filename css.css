@@ -100,6 +100,7 @@ header{
     padding-left: 4px;
 
 
+
     border : 5px solid;
     border-radius: 11px ;
     background-color: rgba(233, 238, 255,0.5);
@@ -338,9 +339,11 @@ header{
     .con{
         margin-left: 1%;
         margin-top: 1%;
-        
+        overflow-x: hidden;
         float :left;
         padding-left: 4px;
+        margin-right: 2%;
+    
     
     
         border : 5px solid;
@@ -348,18 +351,18 @@ header{
         background-color: rgba(233, 238, 255,0.5);
     
         font-family: DaFont;
-        font-size: 20px;
+        font-size: 1.5em;
 
     
     }
     p u{
         font-weight: bold;
-        font-size: 35px;
+        font-size: 2em;
     }
     .conbig{
         width: fit-content;
         margin-left: 2%;
-        font-size: 20px;
+        font-size: 1.5em;
         
         float :left;
         padding-left: 3%;
