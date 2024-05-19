@@ -12,32 +12,57 @@
             
             
         </header>
-        <div class = "bgmain"style="font-size: 70px; text-decoration: none; background-color:#330080;width:101%;">
-            <a href="./index.html" class="button"><p>
-                <button style="background-color:#210535;font-size:  40px;color: white;padding-left: 35%;padding-right: 35%;margin-left: 50px;">
-                    Main Page
-                </button>
-                </p></a>
-                <a href="https://www.youtube.com/watch?v=2qBlE2-WL60" class="button"><p>
-                    <button style="background-color:#210535;font-size:  40px;color: white;padding-left: 36%;padding-right: 36%;margin-right:2%;margin-left: 5%;text-align: center;">
-                        About Me
-                    </button>
-                    </p></a>
+        <body>
+            <div class="store">
+               <button class="textbox" onclick="document.location='index.html'">Main page</button>
+               <button class="textbox" onclick="location.href='//www.youtube.com/watch?v=2qBlE2-WL60'">About me</button>
             
            
-                <a href="constellation.html" class="button"><p>
-                    <button style="background-color:#210535;font-size:  40px;color: white;padding-left: 33%;padding-right:33%;margin-left: 50px;text-align: center;">
-                         Constellation
-                    </button>
-                    </p></a>
-                <a href="https://www.youtube.com/watch?v=2qBlE2-WL60" class="button"><p>
-                    <button style="background-color:#210535;font-size:  40px;color: white;padding-left: 37%;padding-right:37%;margin-left: 50px;text-align: center;">
-                        Rick Roll
-                    </button>
-                    </p></a>
+                <button class="textbox" onclick="document.location='constellation.html' ">Constellations</button>
+
+                <button class = "textbox" onclick="location.href='google.com'">Rickroll</button>
+                    <style>
+                        .bgmain{
+                            display: flex;
+                            
+                        }
+                        .textbox{
+                            height: fit-content;
+                            /*margin:14%;*/
+                            margin-top: 2%;
+                            margin-bottom:2% ;
+                            background-color : #192258;
+                            border: 2px white solid;
+                            color:aliceblue;
+                            font-size: 3rem;
+                            width:69%;
+                            
+                        }
+                        .textbox:hover{
+                            cursor:pointer;
+                        }
+                        .store{
+                            display: block;
+                            background-color: #372376 ;
+                            /*margin-right: 0;*/
+                            height: 20%;
+                            width: 100.7%;
+                            text-align: center;
+                        }
+                        @media only screen and (max-width:800px){
+                            .store{
+                                width: 101.2%;
+                            
+                            }
+                        }
+                        
+                    </style>
+               
+            </p></a>
         </div>
+        </body>
         <br>
-        <img src="icon.png" alt="" style="width: 380px; height: 380px;text-align: center;margin-left: 33%;">
+
 
         
         
