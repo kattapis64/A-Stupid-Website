@@ -114,7 +114,7 @@ header{
     font-weight: bold;
 }
 #first{
-    margin-left: 6%;
+    margin-left: 3%;
 }
 .pic{
     background-color: rgba(255, 255, 255, 0.89);
@@ -126,7 +126,9 @@ header{
     margin-left: 0.5%;
 
     float :left;
-    padding-left: 4px;
+    padding-left: 0.75%;
+    padding-right: 0.75%;
+    overflow-x: hidden;
 
 
     border : 5px solid;
