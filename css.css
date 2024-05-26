@@ -190,6 +190,7 @@ header{
     
         font-family: DaFont;
         font-size: 20px;
+        width: 30%;
     
     }
     #first{
@@ -197,8 +198,8 @@ header{
     }
     .pic{
         background-color: rgba(255, 255, 255, 0.89);
-        width: 99%;
-        height: 99%;
+        width: 70%;
+        height: 70%;
     }
 }
 
@@ -243,8 +244,8 @@ header{
     }
     .pic{
         background-color: rgba(255, 255, 255, 0.89);
-        width: 90%;
-        height: 90%;
+        width: 70%;
+        height: 70%;
     }
 }
 @media only screen and (max-width:900px) {
@@ -287,18 +288,27 @@ header{
         font-family: DaFont;
         font-size: 15px;
 
-    
+        margin-left: 1%;
+        width: 30%;
     }
-    #first{
-        margin-left: 10px;
+    .con{
+        
     }
     .funfact{
         font-size: 14px;
+    }
+    .picsmall{
+        width :98%;
+        background-color: rgba(255, 255, 255, 0.89);
     }
     .pic{
         background-color: rgba(255, 255, 255, 0.89);
         width: 99%;
         height: 99%;
+    }
+    
+    #first{
+
     }
 }
 
@@ -383,6 +393,28 @@ header{
         
         
     }
+    .con{
+        width: fit-content;
+        margin-left: 4%;
+        font-size: 1.5em;
+        
+        float :left;
+        padding-left: 3%;
+        padding-right: 2%;
+        margin-bottom: 1%;
+        margin-right: 2%;
+
+    
+    
+        border : 5px solid;
+        border-radius: 11px ;
+        background-color: rgba(233, 238, 255,0.5);
+    
+        font-family: DaFont;
+
+        
+        
+    }
     
     #bigdic{
         width: 100%;
@@ -395,7 +427,8 @@ header{
         height: 100%;
     }
     
-    #first{
-        margin-left: 10px;
+    .con #first{
+        margin-left: 10em;
+
     }
 }
